@@ -4,8 +4,28 @@
 This section documents my hands-on Splunk practice using real-world style log datasets.  
 The focus was on **log ingestion, investigation, detection logic, and dashboard creation**, similar to tasks performed by a SOC Analyst (L1).
 
----
 
+
+## ℹ️ About Splunk (Context)
+
+Splunk is a SIEM platform used by SOC teams to collect, search, analyze, and visualize logs from multiple sources.
+
+In this repository, Splunk was used to:
+- Ingest logs from SSH, DNS, HTTP, and Cloudflare sources
+- Perform investigation using SPL searches
+- Identify suspicious patterns and brute-force behavior
+- Visualize security events using dashboards
+- Support SOC-style detection and alert triage workflows
+
+**Core Components Used:**
+- **Forwarder:** Sends log data to Splunk
+- **Index:** Stores and organizes ingested data
+- **Search Head:** Used to search, analyze, and build dashboards
+
+This repository focuses on hands-on analysis and detection rather than theoretical explanations.
+
+
+---
 ## 🎯 Objective
 
 - Practice SOC-style log investigation using Splunk
