@@ -91,7 +91,7 @@ Analyzed Cloudflare logs to monitor WAF blocking behavior and identify attack tr
 
 <br>
 
-- 377 WAF blocks out of 2,000 requests — 18.85% block rate indicating significant malicious traffic volume
+- 377 WAF blocks out of 2,000 requests – 18.85% block rate indicating significant malicious traffic volume
 - Top requested URI `/comments.php?m=...%3Cscript%3E` shows URL-encoded script tag — confirmed XSS attempt blocked by WAF
 - 285 WAF challenges suggest additional suspicious but not definitively malicious traffic being flagged
 - Traffic predominantly from US-based sources based on geographic map
