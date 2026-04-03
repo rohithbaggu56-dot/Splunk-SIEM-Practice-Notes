@@ -26,7 +26,7 @@ Hands-on Splunk log analysis using SSH, DNS, Apache, and Cloudflare log sources.
 
 Analyzed DNS query logs to identify high-frequency domain queries that could indicate C2 beaconing behavior.
 
-**SPL query — top queried domains by count across 1,200 DNS events:**
+**SPL query – top queried domains by count across 1,200 DNS events:**
 
 ```spl
 index=dns_lab
@@ -34,7 +34,7 @@ index=dns_lab
 | sort -count
 ```
 
-**Results showing top queried domains — google.com and printer.local both at 139 queries, followed by example.com at 137:**
+**Results showing top queried domains – google.com and printer.local both at 139 queries, followed by example.com at 137:**
 
 <img width="1920" height="961" alt="Splunk-Dns log-Search" src="https://github.com/user-attachments/assets/aca78ec3-e904-424d-bcaa-114315fd81d1" />
 
@@ -50,7 +50,7 @@ index=dns_lab
 
 Built a Splunk dashboard to monitor SSH authentication events and identify brute force patterns across 2,400 total SSH events.
 
-**SSH logins dashboard — 610 failed logins, 572 connections without authentication, failed logins by username and source IP geolocation:**
+**SSH logins dashboard – 610 failed logins, 572 connections without authentication, failed logins by username and source IP geolocation:**
 
 ![Splunk SSH-log-dashboard](https://github.com/user-attachments/assets/84ea7641-f3f2-414a-a43f-60569542490b)
 
@@ -68,7 +68,7 @@ Built a Splunk dashboard to monitor SSH authentication events and identify brute
 
 Built a dashboard to monitor web server activity and identify error patterns across 4,000 total web requests.
 
-**Apache logs dashboard — 4,000 total requests, 2,336 successful, 752 client errors, 752 server errors, top requested URIs and source IPs:**
+**Apache logs dashboard – 4,000 total requests, 2,336 successful, 752 client errors, 752 server errors, top requested URIs and source IPs:**
 
 ![Splunk Apache-log-dashboard](https://github.com/user-attachments/assets/9f23ca5a-e1db-413c-af62-80473d4b5a45)
 
