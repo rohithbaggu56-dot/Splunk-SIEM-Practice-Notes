@@ -97,20 +97,7 @@ Analyzed Cloudflare logs to monitor WAF blocking behavior and identify attack tr
 - Traffic predominantly from US-based sources based on geographic map
 - 📌 MITRE: `T1059.007` JavaScript · `T1190` Exploit Public-Facing Application
 
----
-
-## 📁 Repository Structure
-
-```
-Splunk-SIEM-Practice-Notes/
-├── dashboards/
-│   ├── ssh-logins-dashboard.png
-│   ├── apache-logs-dashboard.png
-│   └── cloudflare-logs-dashboard.png
-└── queries/
-    └── dns-top-queries.png
-```
-
+  
 ---
 
 ⬅️ [Back to SOC Home Lab](https://github.com/rohithbaggu56-dot/Home-SOC-Lab-Detection-Log-Analysis) · [Back to Portfolio](https://github.com/rohithbaggu56-dot)
